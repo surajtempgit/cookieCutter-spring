@@ -1,0 +1,11 @@
+# Demo docker file
+# {{cookiecutter.version}}
+# its jinja code
+{# newline jinja2 #}
+{%- if cookiecutter.cloud_provider == "AWS" -%}
+key = AWSAWSAWSAWS
+{% endif %}
+{%- if cookiecutter.cloud_provider == "GCP" -%}
+key = GCPGCPGCPGCP
+{% endif %}
+
