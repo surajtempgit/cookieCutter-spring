@@ -1,0 +1,17 @@
+{
+  "project_name": "Inhouse template ",
+  "project_slug": "{{ cookiecutter.project_name.lower()|trim()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "description": "Basic template!",
+  "author_name": "Suraj Bhadrike",
+  "domain_name": "example.com",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+  "version": "0.1.0",
+  "cloud_provider": [
+    "AWS",
+    "GCP",
+    "None"
+  ],
+  "use_docker": "y",
+  "debug": "n",
+  "_new_lines": "\n\r"
+}
