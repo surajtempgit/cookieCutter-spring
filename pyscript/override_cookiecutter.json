@@ -1,0 +1,12 @@
+{
+  "project_name": "test rest",
+  "project_slug": "test_rest",
+  "description": "dd",
+  "author_name": "surajbh",
+  "domain_name": "example.com",
+  "email": "ssb@example.com",
+  "version": 12.3,
+  "cloud_provider": "GCP",
+  "use_docker": "y",
+  "debug": "n"
+}

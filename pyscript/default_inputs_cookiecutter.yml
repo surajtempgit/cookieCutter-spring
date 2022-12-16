@@ -1,0 +1,10 @@
+default_context:
+  project_name: 'test template'
+  project_slug: 'test_data'
+  author_name: 'Suraj Bhadrike'
+  domain_name: 'example.com'
+  email: 'dd@example.com'
+  version: 0.1.7
+  cloud_provider: 'AWS'
+  use_docker: 'y'
+  debug: 'n'
