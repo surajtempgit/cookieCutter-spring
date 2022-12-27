@@ -8,4 +8,8 @@ key = AWSAWSAWSAWS
 {%- if cookiecutter.cloud_provider == "GCP" -%}
 key = GCPGCPGCPGCP
 {% endif %}
+{# newline jinja2 #}
+from alpine
+ENTRYPOINT ["/bin/sh"]
+
 
